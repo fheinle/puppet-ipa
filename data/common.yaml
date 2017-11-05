@@ -1,0 +1,1 @@
+ipa::domain: "ipa.%{domain}"
