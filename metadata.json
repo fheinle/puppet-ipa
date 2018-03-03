@@ -1,0 +1,28 @@
+{
+  "name": "fheinle-ipa",
+  "version": "0.1.0",
+  "author": "Florian Heinle <launchpad@planet-tiax.de>",
+  "summary": "FreeIPA management",
+  "license": "MIT",
+  "source": "https://github.com/fheinle/puppet-freeipa",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ]
+}

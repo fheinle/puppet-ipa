@@ -21,4 +21,5 @@ ipa::sslcert { 'sometitle':
 * `service`: the kerberos principal to use for the SSL certificate
 
 This will request the given certificate from FreeIPA's CA and set up `certmonger`
-to monitor the certificate for expiration etc.
+to monitor the certificate for expiration etc. The given principal must already
+exist in FreeIPA.
